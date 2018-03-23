@@ -1,0 +1,1 @@
+# sequelize-null-to-full
