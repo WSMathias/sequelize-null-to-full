@@ -1,4 +1,5 @@
 # sequelize-null-to-full
+a single page guide to sequalize
 
 #### sequelize is a popular ORM used in nodejs.
 
@@ -13,7 +14,7 @@ if installing globally (recommended):
     $ npm i --save-dev sequelize-cli
     ```
 ### accesssing sequelize-cli:
-if installed globall  
+if installed globally  
     ```
     $ sequalize <options>
     ```  
