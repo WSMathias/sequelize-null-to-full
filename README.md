@@ -1,5 +1,4 @@
-# sequelize-null-to-full
-a single page guide to sequalize
+# Sequelize-null-to-full
 
 #### sequelize is a popular ORM used in nodejs.
 
@@ -13,8 +12,8 @@ if installing globally (recommended):
     ```
     $ npm i --save-dev sequelize-cli
     ```
-### accesssing sequelize-cli:
-if installed globally  
+### Accesssing sequelize-cli:  
+if installed globall  
     ```
     $ sequalize <options>
     ```  
@@ -63,4 +62,18 @@ Above command creates two files
 where xxxxxxxxxxxx is numbers from datetime.  ex:20180322160029  
 The migration files are used to track the changes in models  
 for more customisation alter model (user.js) and create new migration file by incrementing xxxxxxxxxxxx-update-user.js
+
+### Migration:  
+Is the process of converting models in to tables in database.  
+to migrate run:  
+```sh
+$ sequelize db:migrate
+```  
+which exicutes the migration files in the incremental order and stores the name of the miration file in table **SequelizeMeta**.This prevents already exicuted migration file from running again on next migration.
+
+
+
+
+
+
 
