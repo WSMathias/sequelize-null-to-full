@@ -210,7 +210,6 @@ queryInterface.renameColumn('TableA', 'ColumOldName','ColumnNewName').then((res)
 | Associations | usage in Model | Foreign key in table  |
 |--------------|----------------|----------|
 | belongsTo | Student.belongsTo(Department) | Student
-| hasOne | Student.hasOne(ClassRoom) | Student
 | hasMany | Department.hasMany(Student) | Student 
 
 ### Migration file for _belongsTo_ and _hasMany_:
